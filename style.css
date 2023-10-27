@@ -1,0 +1,99 @@
+  body {
+      background-image: url('img/sea.jpg');
+  }
+
+  p {
+      font-size: 18px;
+      font-weight: bold;
+      color: white;
+      font-style: italic;
+  }
+
+  #tabela1 {
+      margin-left: auto;
+      margin-right: auto;
+      align-items: center;
+
+  }
+
+  #tabela2 {
+      margin-left: auto;
+      margin-right: auto;
+      align-items: center;
+  }
+
+  td {
+      border: 1px solid black;
+      color: transparent;
+      width: 35px;
+      height: 35px;
+  }
+
+
+
+  .Statek {
+      display: flex;
+      margin: 15px;
+      border: 1px solid black;
+      float: left;
+      clear: both;
+      width: fit-content;
+      margin-bottom: 5px;
+      background-color: white;
+  }
+
+  .Statek:hover {
+      background-color: gray;
+  }
+
+  .Stateczki {
+      margin: 1px;
+      width: 35px;
+      height: 35px;
+      border: 1px solid black;
+      background-color: #00CCFF;
+
+  }
+
+  .rozowy {
+      background-color: #00CCFF;
+  }
+
+  .bialy {
+      background-color: white;
+  }
+
+
+  #lewy {
+      width: 20%;
+      float: left;
+      margin-top: 4px;
+  }
+
+  .srodkowy {
+      float: left;
+      text-align: center;
+      width: 40%;
+      margin-top: 4px;
+  }
+
+  .prawy {
+      float: right;
+      text-align: center;
+      width: 40%;
+      margin-top: 4px;
+  }
+
+  #dolny {
+      margin-top: 20px;
+      float: left;
+      margin-left: 55%;
+      margin-right: auto;
+      width: 200px;
+      height: 100px;
+  }
+
+  .przycisk {
+      height: 50px;
+      width: 150px;
+  }
